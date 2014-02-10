@@ -1,5 +1,11 @@
 // Clean.
 function clean() {
+    // Allow Google Hangouts.
+    var googleHangouts = location.host === 'plus.google.com' && location.pathname.match(/hangouts/);
+    if (googleHangouts) {
+        return;
+    }
+
     navigator.__defineGetter__('mimeTypes', function() {
         return [];
     });
