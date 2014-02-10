@@ -6,6 +6,12 @@ function clean() {
         return;
     }
 
+    // Allow Gmail.
+    var gmail = location.host === 'mail.google.com';
+    if (gmail) {
+        return;
+    }
+
     navigator.__defineGetter__('mimeTypes', function() {
         return [];
     });
