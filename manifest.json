@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Happy Bonobo: Plugins & Mimetypes",
+    "name": "Clear Plugin & Mimetype Identifiers",
     "description": "Hide in the forest, with a clean removal of your plugin & mimetype identifiers.",
     "version": "1.0",
 
